@@ -1,0 +1,30 @@
+Git commands sheet
+
+## Git initialization
+	git init
+
+## Git status check
+	git status
+
+## Stage a file change
+	git add
+
+## Stage every file change
+	git add .
+
+## Commit staged files
+	git commit -m 'COMMIT_MESSAGE'
+
+## Push commited files to Github repo
+	git push
+
+## FIRST time Github repo push
+	git remote add origin <REPO_URL>
+	git branch -M main
+	git push -u origin main
+
+## Existing repo clone
+	git clone
+
+## Pull latest changes from remote repo AND updates local repo (Combination of fetch and merge)
+	git pull
