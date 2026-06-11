@@ -1,0 +1,11 @@
+## Name and email set-up
+	git config --global user.name "NAME"
+	git config --global user.email "NAME@EMAIL.COM"
+
+## Read config set-up
+	git config --list
+
+## Default branch name change
+	git config --global init.defaulBranch <BRANCHNAME>
+
+
