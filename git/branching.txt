@@ -1,0 +1,14 @@
+A branch can be made to work on different parts of a project with impacting the main branch
+
+## Lists all branches in a repo, '*' shows up before the active branch
+	git branch
+
+## Creating a branch
+	git branch <BRANCH_NAME>
+
+## Switching to a branch
+	git checkout <BRANCH_NAME>
+
+## Create and move to a branch immediately
+	git checkout -b <BRANCH_NAME>
+
