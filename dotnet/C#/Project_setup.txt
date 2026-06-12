@@ -1,0 +1,20 @@
+## C# Project templates
+
+## Create a new project with
+    dotnet new <TEMPLATE> -n <PROJECT_NAME>
+
+## List all available templates
+    dotnet new list
+
+
+## Templates
+console     - CLI app       
+classlib    - Class library, re-useable code
+web         - Minimal web API
+webapi      - Full web API
+mvc         - Web app
+blazor      - Front end web
+xunit/nunit - Test project, unit testing
+winforms    - Simple desktop apps
+wpf         - Better desktop apps
+
