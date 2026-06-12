@@ -23,7 +23,7 @@ Git commands sheet
 	git branch -M main
 	git push -u origin main
 
-## Existing repo clone
+## Existing repo clone, needs to be done only once, git pull for recent changes (in correct directory)
 	git clone
 
 ## Pull latest changes from remote repo AND updates local repo (Combination of fetch and merge)
