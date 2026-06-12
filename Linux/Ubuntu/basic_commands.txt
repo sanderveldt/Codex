@@ -1,28 +1,28 @@
-Show directory 		    - pwd
-List files (all)	    - ls (-lah)
-Create folder		    - mkdir <NAME>
-Remove file		    - rm <FILE>
-Remove folder		    - rm -r <FOLDER>/
+Show directory 		          - pwd
+List files (all)	          - ls (-lah)
+Create folder		            - mkdir <NAME>
+Remove file		              - rm <FILE>
+Remove folder		            - rm -r <FOLDER>/
 Move down folder(/path)	    - cd <FOLDER> (/<FOLDER>/...)
-Move up folder(/path)	    - cd ..(/../..)
+Move up folder(/path)	      - cd ..(/../..)
 Move to folder anywhere     - cd <FULL_PATH>
 Move to home(homefolder)    - cd ~(/<FOLDER>)
 
-Refresh packages	    - sudo apt update
+Refresh packages	          - sudo apt update
 Upgrade installed packages  - sudo apt upgrade -y
-Install software 	    - sudo apt install <PACKAGE>
+Install software 	          - sudo apt install <PACKAGE>
 Clear unused packages       - sudo apt autoremove
 
 Kernel and System info      - uname -a
-Disk usage info		    - df -h
-RAM usage info		    - free -h
+Disk usage info		          - df -h
+RAM usage info		          - free -h
 System uptime and load 	    - uptime
 
-Show IP addresses	    - ip a
-Test internet 		    - ping <URL>
-List open ports		    - ss -tulnp
+Show IP addresses	          - ip a
+Test internet 		          - ping <URL>
+List open ports		          - ss -tulnp
 
-Check any service	    - sudo systenctl status <SERVICE>
+Check any service	          - sudo systenctl status <SERVICE>
 
 
 
