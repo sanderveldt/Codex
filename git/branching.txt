@@ -1,7 +1,10 @@
 A branch can be made to work on different parts of a project with impacting the main branch
+Confirm and check with git config --list and git status
 
 ## Lists all branches in a repo, '*' shows up before the active branch
-	git branch
+List local branches 	 =	git branch
+List remote branches	 =	git branch -r
+List all branches	 =	git branch -a
 
 ## Creating a branch
 	git branch <BRANCH_NAME>
@@ -11,4 +14,20 @@ A branch can be made to work on different parts of a project with impacting the 
 
 ## Create and move to a branch immediately
 	git checkout -b <BRANCH_NAME>
+
+## Renaming local branches
+	git branch -m <BRANCH_NAME> <NEW_BRANCH_NAME>
+
+## Set local branch to track remote(Github) branch
+	git push -u origin <BRANCH_NAME>
+
+## Deleting branches, for safe delete, branch must be fully merged
+Safe delete		=	git branch -d <BRANCH_NAME>
+Force delete		=	git branch -D <BRANCH_NAME>
+Remote delete		= 	git push origin --delete <BRANCH_NAME>
+
+
+
+
+
 
