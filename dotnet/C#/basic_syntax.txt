@@ -1,0 +1,21 @@
+## Old version program template
+
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+
+
+## Comments and multi line comments
+// A comment
+/* Multi line
+comment */
+

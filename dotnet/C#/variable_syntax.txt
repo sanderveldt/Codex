@@ -1,0 +1,11 @@
+## Variables are statically typed when declared, later called by variable name only
+
+	type <var_name> = value;
+
+# Variable types
+string		
+int
+double 	// float
+char	// Single character
+bool
+
